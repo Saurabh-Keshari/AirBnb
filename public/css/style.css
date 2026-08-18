@@ -54,7 +54,7 @@ a {
 }
 
 /* Cards */
-.card {
+.listing-card {
   border: none;
   margin-bottom: 2rem;
   cursor: pointer;
@@ -90,7 +90,7 @@ a {
 }
 
 .show-card-p > p {
-  margin-bottom: 0.5rem;
+  margin-block: 0.5rem;
 }
 
 .btns {
