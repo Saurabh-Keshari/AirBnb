@@ -20,3 +20,13 @@
     );
   });
 })();
+
+// Auto-dismiss Flash Messages after 2sec
+setTimeout(() => {
+  let alertElements = document.querySelectorAll(".alert");
+  alertElements.forEach((alert) => {
+    // Bootstrap ka Alert component use karke usko gracefully close karna
+    let bsAlert = new bootstrap.Alert(alert);
+    bsAlert.close();
+  });
+}, 2000);
