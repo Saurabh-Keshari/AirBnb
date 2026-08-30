@@ -56,7 +56,6 @@ a {
 /* Cards */
 .listing-card {
   border: none;
-  margin-bottom: 2rem;
   cursor: pointer;
 }
 
