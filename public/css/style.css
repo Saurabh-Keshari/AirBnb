@@ -82,6 +82,22 @@ a {
   background-color: white;
 }
 
+@media (max-width: 767px) {
+  .mobile-menu {
+    position: absolute;
+    top: 100%;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    z-index: 1050;
+  }
+}
+
 /* Show Page */
 .show-img {
   height: 40vh;
@@ -95,4 +111,10 @@ a {
 .btns {
   display: flex;
   gap: 0.5rem;
+}
+
+/* Map */
+#map {
+  height: 400px;
+  width: 90vh;
 }
